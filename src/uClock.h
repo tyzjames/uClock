@@ -37,7 +37,7 @@ namespace umodular { namespace clock {
 
 #define PHASE_FACTOR 16
 
-#define EXT_INTERVAL_BUFFER_SIZE 24
+#define EXT_INTERVAL_BUFFER_SIZE 32
 
 #define SECS_PER_MIN  (60UL)
 #define SECS_PER_HOUR (3600UL)
