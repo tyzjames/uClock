@@ -42,7 +42,7 @@ void uclockInitTimer()
 	// with 0 the highest and 255 the lowest. Most other interrupts default to 128. 
 	// As a general guideline, interrupt routines that run longer should be given 
 	// lower priority (higher numerical values).
-	_uclockTimer.priority(0);
+	_uclockTimer.priority(64);
 }
 #else
 void uclockInitTimer()
